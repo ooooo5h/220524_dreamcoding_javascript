@@ -5,14 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="main.js"></script> 
-    <!-- HTML파일을 쭉 읽어오다가(parsing) -->
-    <!-- script파일을 만나면 js파일을 다운받고 실행한다 -->
-    <!-- 실행이 끝나고 나면 다시 HTML파일을 파싱한다. -->
-    <!-- 좋은 방법이 아니다 : 자바스크립트 파일이 무거울 경우 -->
-    <!-- 또는 인터넷이 느린 경우, 화면에 브라우저 화면이 늦게 나타날 수 있다. -->
 </head>
 <body>
-    
+    <script src="main.js"></script>
+    <!-- HTML 파일을 쭉 파싱하다가 body끝에 위치한 script를 만나 다운로드받고 실행한다. -->
+    <!-- 사용자가 기본적인 HTML 파일은 빨리 볼 수 있지만,  -->
+    <!-- 자바스크립트에 의존적인 페이지라면 좋은 방법이 아니다 : 사용자가 파일 다운로드 시간, 실행 시간 동안 기다려야한다.  -->
 </body>
 </html>
